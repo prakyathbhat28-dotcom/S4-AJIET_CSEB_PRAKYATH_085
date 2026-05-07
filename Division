@@ -1,0 +1,8 @@
+class Division {
+    public static void main(String[] args) {
+        int a=12;
+        int b=6;
+        System.out.println("Remainder is ="+a%b);
+        System.out.println("Quotient is ="+a/b);
+    }
+}
