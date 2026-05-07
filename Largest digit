@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Number {
+    public static void main(String[] args) {
+      Scanner s=new Scanner(System.in);
+      
+     System.out.println("Enter the number");
+     int num=s.nextInt();
+     int original=num;
+     int largest=0;
+     while(num>0)
+     {
+        int digit=num %10;
+         if (digit>largest){
+             largest=digit;
+         }
+         num=num/10;
+     }
+     System.out.println("Number:"+original);
+     System.out.println("Largest digit="+largest);
+         }
+     }
