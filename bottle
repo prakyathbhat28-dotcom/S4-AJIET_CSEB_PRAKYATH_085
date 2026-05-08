@@ -1,0 +1,25 @@
+class Bottle {
+   String brand,colour;
+   int volume;
+   boolean isEmpty;
+   boolean isFull;
+   boolean isOpen;
+   boolean isClosed;
+   
+   void openCap(){
+       isClosed=false;
+       isOpen=true;
+       System.out.println("Bottle is open");
+   }
+   void closeCap(){
+       isClosed=true;
+       isOpen=false;
+       System.out.println("Bottle is close");
+   }
+   void drink(){
+       isFull=true;
+       isEmpty=false;
+       System.out.println("Bottle is full");
+   }
+   void fillWater(){
+       
